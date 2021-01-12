@@ -1,14 +1,15 @@
 # GLADNet with some modifications in model.py 
-Source:  https://github.com/weichen582/GLADNet
+Source:  https://github.com/weichen582/GLADNet <br>
 In order to reduce computation, we changed the GLADNet network dimension from five down- and five up-sampling blocks to three down- and three up-sampling blocks. We also changed the L1 loss to MSSSIM-L1 loss for improved performance.
 
 
 ## Requirements ##
-1. Python
-2. Tensorflow >= 1.3.0
-3. numpy, PIL
+* Python
+* Tensorflow >= 1.3.0
+* numpy, PIL
 
 ## Testing ##
+```
 python main.py 
     --use_gpu=1 \                           # use gpu or not
     --gpu_idx=0 \
@@ -16,8 +17,9 @@ python main.py
     --phase=test \
     --test_dir=/path/to/your/test/dir/ \
     --save_dir=/path/to/save/results/ \
-
+```
 ## Training ##
+```
 python main.py
     --use_gpu=1 \                           # use gpu or not
     --gpu_idx=0 \
@@ -30,3 +32,4 @@ python main.py
     --eval_every_epoch=5 \                 # evaluate and save checkpoints for every # epoches
     --checkpoint_dir=./checkpoint           # if it is not existed, automatically make dirs
     --sample_dir=./sample                   # dir for saving evaluation results during training
+    ```
