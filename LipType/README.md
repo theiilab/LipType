@@ -1,5 +1,6 @@
-# # Source: LipNet with some modifications in model2.py [ https://github.com/rizkiarm/LipNet ]
-# In order to reduce computation and improve accuracy, we replaced a deep 3D CNN with a combnation of a shallow 3D-CNN (1-layer) and a deep 2D-CNN (34-layer ResNet) integrated with squeeze and excitation (SE) blocks (SE-ResNet).
+# Source: LipNet with some modifications in model2.py [https://github.com/rizkiarm/LipNet]
+In order to reduce computation and improve accuracy, we replaced a deep 3D CNN with a combnation of a shallow 3D-CNN (1-layer) and a deep 2D-CNN (34-layer ResNet) integrated with squeeze and excitation (SE) blocks (SE-ResNet).
+
 
 ## Requirements ##
 * Keras 2.0+
@@ -20,10 +21,10 @@
 
 ## Usage ##
 To use the model, first you need to clone the repository:
-
+```
 cd LipNet/
 pip install -e .
-
+```
 ## Dataset ##
 This model uses GRID corpus (http://spandh.dcs.shef.ac.uk/gridcorpus/)
 
