@@ -3,13 +3,14 @@ In order to correct to predict and automatically correct potential recognition e
 
 
 ## Requirements ##
-1. Python
-2. Tensorflow >= 1.3.0
-3. numpy
-4. scikit-learn 0.24.0
-5. NLTK
+* Python
+* Tensorflow >= 1.3.0
+* numpy
+* scikit-learn 0.24.0
+* NLTK
 
 ## Training ##
+```
 python correction.py
     --phase=train \
     --epoch=50 \                           # number of training epoches
@@ -18,10 +19,11 @@ python correction.py
     --eval_every_epoch=5 \                 # evaluate and save checkpoints for every # epoches
     --checkpoint_dir=./checkpoint           # if it is not existed, automatically make dirs
     --sample_dir=./sample                   # dir for saving evaluation results during training
-
+```
 ## Testing ##
+```
 python correction.py 
     --phase=test \
     --test_dir=/path/to/your/test/dir/ \
     --save_dir=/path/to/save/results/ \
-
+```
