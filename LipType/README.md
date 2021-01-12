@@ -1,4 +1,5 @@
-# Source: LipNet with some modifications in model2.py [https://github.com/rizkiarm/LipNet]
+# LipNet with some modifications in model2.py
+Source: [https://github.com/rizkiarm/LipNet] <br>
 In order to reduce computation and improve accuracy, we replaced a deep 3D CNN with a combnation of a shallow 3D-CNN (1-layer) and a deep 2D-CNN (34-layer ResNet) integrated with squeeze and excitation (SE) blocks (SE-ResNet).
 
 
