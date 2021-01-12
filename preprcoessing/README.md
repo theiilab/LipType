@@ -1,6 +1,6 @@
 # GLADNet with some modifications in model.py 
-Source:  https://github.com/weichen582/GLADNet <br>
-In order to reduce computation, we changed the GLADNet network dimension from five down- and five up-sampling blocks to three down- and three up-sampling blocks. We also changed the L1 loss to MSSSIM-L1 loss for improved performance.
+In order to reduce computation, we changed the GLADNet network dimension from five down- and five up-sampling blocks to three down- and three up-sampling blocks. We also changed the L1 loss to MSSSIM-L1 loss for improved performance. <br>
+Source:  https://github.com/weichen582/GLADNet 
 
 
 ## Requirements ##
