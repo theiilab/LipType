@@ -15,7 +15,7 @@ python correction.py
     --phase=train \
     --epoch=50 \                           # number of training epoches
     --batch_size=128 \
-    --base_lr=0.001 \                      # initial learning rate for adm
+    --base_lr=0.001 \                      # initial learning rate for adam
     --eval_every_epoch=5 \                 # evaluate and save checkpoints for every # epoches
     --checkpoint_dir=./checkpoint           # if it is not existed, automatically make dirs
     --sample_dir=./sample                   # dir for saving evaluation results during training
