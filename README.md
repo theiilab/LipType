@@ -1,6 +1,6 @@
 # LipType
 
-This is a Tensorflow implementation of the method described in the paper 'LipType: A Silent Speech Recognizer Augmented with an Independent Repair Model' by Laxmi Pandey and Ahmed Sabbir Arif.
+This is a Tensorflow implementation of the method described in the paper 'LipType: A Silent Speech Recognizer Augmented with an Independent Repair Model' by Laxmi Pandey and [Ahmed Sabbir Arif] (https://www.asarif.com/).
 
 ![Repaired LipType](repaired_liptype.gif)
 
