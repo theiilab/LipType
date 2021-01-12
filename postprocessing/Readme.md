@@ -1,4 +1,5 @@
-# Repaird model comprised of a 5-layer encoder-decoder architecture [128 64 32 64 128] to correct the character sequence predicted by the recognizer. Followed by a sequence decoder which comprised of spell checker, bi-directional ngram LM and Euclidean distance based word correction.
+# Postprocessing
+In order to correct to predict and automatically correct potential recognition errors by LipType, we developed a 5-layer encoder-decoder architecture [128 64 32 64 128], followed by a sequence decoder comprising of spell checker, bi-directional ngram LM and Euclidean distance based word correction.
 
 
 ## Requirements ##
