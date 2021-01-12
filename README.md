@@ -46,9 +46,6 @@ The contribution of this work is threefold: <br/>
 ```
 
 
-## Dataset
-Dataset used for evaluation (link)
-
 ## References
 Read the following paper for further details. If you use this code, please cite our work.
 ```
